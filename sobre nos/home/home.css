@@ -1,0 +1,77 @@
+body{
+    color: #000a14;
+    background-color: #f8c7f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid#f8c7f0;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.roupas{
+    width: 250px;
+    margin: 60px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 4s;
+    background: #f4efec;
+}
+
+.roupas:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.roupas img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15%;
+}
+
+p{
+    text-align: center;
+    color: #000;
+    padding-top: 0 8px;
+}
+
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+    margin: 0;   
+}
